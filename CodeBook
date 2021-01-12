@@ -1,0 +1,10 @@
+Assign each data to variables
+
+TestSet <- read.table(file = "UCI HAR Dataset/test/X_test.txt")
+TestLabel <- read.table(file = "UCI HAR Dataset/test/y_test.txt")
+SubjectTest <- read.table(file = "UCI HAR Dataset/test/subject_test.txt")
+TrainingSet <- read.table(file = "UCI HAR Dataset/train/X_train.txt")
+TrainingLabels <- read.table(file = "UCI HAR Dataset/train/y_train.txt")
+SubjectTrain <- read.table(file = "UCI HAR Dataset/train/subject_train.txt")
+Features <- read.table(file = "UCI HAR Dataset/features.txt")
+ActivityLabels <- read.table(file = "UCI HAR Dataset/activity_labels.txt")
